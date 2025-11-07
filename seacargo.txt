@@ -1,0 +1,173 @@
+OFLSA Sea Cargo Tracking – Major Carrier Links
+
+ACL Atlantic Container Line: http://www.aclcargo.com/trackCargo.php
+
+AEL American Export Lines: http://shipit.com/index.php?option=com_user&view=login (registration required)
+
+AIS Ship Tracking: http://www.portvision.com/
+
+Alianca Navegaceo e Logistica Ltda.: http://www.alianca.com.br/ecommerce-al/trackntrace/?lang=en
+
+ANL Container Line: http://www.anl.com.au/
+
+APL American President Line: http://www.apl.com/tracking/
+
+Bahri (NSCSA National Shipping Company of Saudi Arabia): http://www.bahri.sa/cargo-tracking-services (by BL only)
+
+CCNI: http://www.ccni.cl/index.php?option=com_ct&Itemid=115
+
+CSCL CHINA SHIPPING CONTAINER LINES: http://www.cscl.com.cn/english/
+
+CMA-CGM: http://www.cma-cgm.com/eBusiness/Tracking/Default.aspx
+
+CNC LINE Cheng Lie Navigation: https://www.cncline.com.tw/eCNC/eservice/Cargo.asp
+
+CONTAINER Tracking: http://www.seacargotracking.net/
+
+COSCO CONTAINER LINES: http://ebusiness.coscon.com/NewEBWeb/public/cargoTracking/cargoTracking.xhtml?MM_PG_MeetingSearch&flag=l&PortalLanguage=GB18030&uid=&language=en
+
+COSCO USA: http://www.cosco-usa.com/
+
+COSCO Canada: http://www.cosco.ca/
+
+CROWLEY: http://www.crowley.com/What-We-Do/Shipping-and-Logistics/Liner-Shipment-Tracking
+
+CSAV: http://www2.csav.com/rastreo/rastreo.nsf/YourTrace?OpenForm
+
+CSAV Norasia: http://www.csavnorasia.com/index_en.htm
+
+DAL – Deutsche Afrika Linien: http://my.dal.biz/onlineservices/tracking/index.php
+
+DELMAS: http://ebusiness.cma-cgm.com/DELMAS/Tracking/Default.aspx
+
+EIMSKIP – Vessel Tracking: http://www.service.tracscape.com/tsp/servlet/com.trackwell.gis.ims.LoginServlet?customer=11640&user=opinn_eimskip&pwd=opinn8&sId=0&resolution=1200&parentPage=/servlet/com.trackwell.gis.ims.twims
+
+Emirates Shipping Line: http://www.emiratesline.com/
+
+Evergreen Lines: http://www.shipmentlink.com/servlet/TDB1_CargoTracking.do
+
+FESCO: http://www.fesco.ru/en/index.html
+
+Gold Star Line: http://www.gslltd.com.hk/cargo_tracing.html
+
+Grieg Star Shipping: http://www.griegstar.com/
+
+Grimaldi Lines: http://track.grimaldi-app.com/
+
+Hamburg-Sued (Columbus Line): http://www.hamburgsud-line.com/ecommerce-hs/trackntrace/?lang=en
+
+Hanjin: http://www.hanjin.com/hanjin/CUP_HOM_3301.do?sessLocale=en
+
+Hapag-Lloyd: https://www.hapag-lloyd.com/en/tracing/by_container.html (login required)
+
+HAWK Container Lines: http://www.hawkgroups.com/
+
+HEUNG A Shipping: http://www.heung-a.co.kr/eng/cargo_web/cargotrace.cfm
+
+HORIZON Lines: http://www.heung-a.co.kr/eng/cargo_web/cargotrace.cfm
+
+HUGO STINNES: http://www.stinnes-linien.de/softship/history.htm
+
+HYUNDAI Merchant Marine (HMM): http://www.hmm21.com/cms/company/eng/index.html
+
+Ignazio Messina Line: http://www.messinaline.it/wps/portal/messina
+
+Italia Marittima (formerly Lloyd Triestino): http://www.shipmentlink.com/servlet/TDB1_CargoTracking.do
+
+K-Line: http://www.kline.com/
+
+Kambara Kisen: http://www.kambara-kisen.co.jp/
+
+Kestrel Liner: http://www.kestrel-liner.com/shipment.shtml
+
+KMTC Line: http://www.kmtc.co.kr/
+
+LIBRA: http://www3.libra.com.br:8080/scripts/index.php?p=online_tracking_module
+
+MACS Shipping: http://www.macship.com/t&t.html
+
+Maersk Line: http://www.maerskline.com/appmanager/maerskline/public?_nfpb=true&_pageLabel=page_tracking3_trackSimple
+
+MARFRET Compagnie Maritime: http://www.marfret.com/en/tracking
+
+MATSON: https://www.matson.com/vcsc/pov/tracking/tracking.jsp
+
+MAXICON Container Line: http://www.maxiconline.com/
+
+MOL Mitsui OSK Lines: http://www.molpower.com/htm/default.htm
+
+MISC Berhad: http://www.cargosmart.com/misc_main.htm
+
+MSC: http://www.mscgva.ch/tracking/index.html
+
+NAMSUNG Shipping: http://www.namsung.co.kr/kor/eservice/trace.ns.tsp
+
+Nordana: http://server1.vilden.net/nu/public/index.htm
+
+NYK Nippon Yusen Kaisha Lines: http://www2.nykline.com/
+
+Ocean Africa Container Lines vessel tracking: http://www.oceanafrica.co.za/track.asp
+
+Ocean Empire Lines: http://www.oelltd.com/
+
+OOCL: http://www.cargosmart.com/ (login required; alternates: http://www.oocl.com/)
+
+PDL Pacific Direct Line: http://www.pdl123.co.nz/services/track_and_trace.php
+
+PIL Pacific International Lines: https://www.pilship.com/ecms-server/Public/TrackandTrace.jsp
+
+POLLUX & CASTOR: http://www.pollux-castor.com/
+
+RCL Regional Container Lines: http://www.rclgroup.com/CrgTrack_00.asp
+
+Royal Arctic Lines: http://www.ral.gl/index.php?option=com_content&view=article&id=174&Itemid=222&lang=en
+
+Safmarine: http://www.safmarine.com/
+
+SCI Shipping Corporation of India: http://www.shipindia.com/app/consignment-tracking.aspx
+
+Seaboard Marine: http://www.seaboardmarine.com/sml/
+
+Seago Line: http://www.seagoline.com/
+
+Sea Star Line: http://www.seastarline.com/
+
+Sinokor: http://www.sinokor.co.kr/
+
+Sofrana: http://www.sofrana.co.nz/
+
+STX PanOcean: http://container.stxpanocean.com/
+
+Swire Shipping: http://www.swireshipping.com/
+
+Tarros: http://www.tarros.it/tarros4_1_e.htm (vessel tracking: http://www.tarros.it/)
+
+TCC The Containership Company: http://www.containership-company.com/
+
+T.S. Lines: http://www.tslines.com/TCT1/TCT1Query.aspx
+
+TRANSLINER: http://www.transliner.com.sg/Tracer.aspx
+
+UASC United Arab Shipping Co: http://uasconline.uasc.net/Home
+
+Wallenius Wilhelmsen Logistics: https://att.2wglobal.com/gstattweb/ocean.do?method=getDefaultOceanQuickSearchPage
+
+Wan Hai Lines: http://web.wanhai.com/index_whl.jsp?file_num=15040&web=whlwww&i_url=whlwww/cargoTrack.jsp
+
+Yang Ming: http://www.yangming.com/track_trace/track_trace.html
+
+Zim Line: http://www.zim.com/pages/findcontainer.aspx
+
+For tracking individual containers, also see:
+
+CONTAINER Tracking: http://www.seacargotracking.net/
+
+CARU Containers: http://portal.carucontainers.com/
+
+CRONOS Containers: http://www.cronos.com/
+
+UES Containers: http://www.ueshk.com/whatwedo/inquiries.html
+
+TAL Containers: http://www.talinternational.com/Search/UnitInquiryDetails.aspx
+
+TEXTAINER Containers: http://www.textainer.com/Equipment/StatusAndSpecificationsInquiry.aspx?DelFileType=XE

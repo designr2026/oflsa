@@ -1,0 +1,540 @@
+OFLSA Airport Codes Compilation
+International Airports
+International A–B
+Abu Dhabi, United Arab Emirates: AUH
+
+Acapulco, Mexico: ACA
+
+Agana, Guam: GUM
+
+Amman, Jordan: AMM
+
+Amsterdam, Netherlands: AMS
+
+Asuncion, Paraguay: ASU
+
+Athens, Greece: ATH
+
+Auckland, New Zealand: AKL
+
+Bahrain: BAH
+
+Bangkok, Thailand: BKK
+
+Barcelona, Spain: BCN
+
+Beijing, China: PEK
+
+Belfast, Northern Ireland, UK: BFS
+
+Belgrade, Yugoslavia: BJY
+
+Belize City, Belize: BZE
+
+Berlin, Germany: BER
+
+Bimini, Bahamas: BIM
+
+Bogota, Columbia: BOG
+
+Bombay, India: BOM
+
+Bonn, Germany: CGN
+
+Brussels, Belgium: BRU
+
+Bucharest, Romania: OTP
+
+Budapest, Hungary: BUD
+
+Buenos Aires, Argentina: EZE
+
+International C–G
+Cancun, Mexico: CUN
+
+Cape Town, South Africa: CPT
+
+Caracas, Venezuela: CCS
+
+Casablanca, Morocco: CMN
+
+Colombo, Sri Lanka: CMB
+
+Cozumel, Mexico: CZM
+
+Dominica: DOM
+
+Dublin, Ireland: DUB
+
+Dusseldorf, Germany: DUS
+
+Frankfurt, Germany: FRA
+
+Geneva, Switzerland: GVA
+
+Glasgow, United Kingdom: GLA
+
+Gothenburg, Sweden: GOT
+
+Governors Harbour, Bahamas: GHB
+
+Guadalajara, Mexico: GDL
+
+Guatemala City, Guatemala: GUA
+
+Guayaquil, Ecuador: GYE
+
+International H–L
+Hamburg, Germany: HAM
+
+Hanoi, Vietnam: HAN
+
+Helsinki, Finland: HEL
+
+Hiroshima, Japan: HIW
+
+Hong Kong, China: HKG
+
+Huatulco, Mexico: HUX
+
+Istanbul, Turkey: IST
+
+Ixtapa, Mexico: ZIH
+
+Jakarta, Indonesia: CGK
+
+Johannesburg, South Africa: JNB
+
+Kiev, Ukraine: KBP
+
+Kingston, Jamaica: KIN
+
+Montego Bay, Jamaica: MBJ
+
+Leon, Mexico: BJX
+
+Lima, Peru: LIM
+
+Lisbon, Portugal: LIS
+
+London (Gatwick), UK: LGW
+
+London (Heathrow), UK: LHR
+
+Los Cabos, Mexico: SJD
+
+Lyon, France: LYN
+
+International M–N
+Madrid, Spain: MAD
+
+Managua, Nicaragua: MGA
+
+Manchester, England: MAN
+
+Manila, Philippines: MNL
+
+Mazatlan, Mexico: MZT
+
+Melbourne, Australia: MEL
+
+Mexico City, Mexico: MEX
+
+Milan (Malpensa), Italy: MXP
+
+Monterrey, Mexico: MTY
+
+Moscow (Sheremetyevo), Russia: SVO
+
+Munich, Germany: MUC
+
+Nagoya, Japan: NGO
+
+Nairobi, Kenya: NBO
+
+Naples, Italy: NAP
+
+Nassau, Bahamas: NAS
+
+Nice, France: NCE
+
+International O–R
+Osaka, Japan: KIX
+
+Oslo, Norway: OSL
+
+Panama City, Panama: PTY
+
+Paradise Island, Bahamas: PID
+
+Paris (Charles de Gaulle), France: CDG
+
+Paris (Orly), France: ORY
+
+Ponce, Puerto Rico: PSE
+
+Prague, Czech Republic: PRG
+
+Puerto Vallarta, Mexico: PVR
+
+Reykjavik, Iceland: RKV
+
+Rio de Janeiro, Brazil: GIG
+
+Rome (Fiumicino), Italy: FCO
+
+International S–Z
+San Juan, Puerto Rico: SJU
+
+Santiago de Chile, Chile: SCL
+
+Santo Domingo, Dominican Republic: SDQ
+
+Sao Paulo, Brazil: GRU
+
+Sapporo, Japan: CTX
+
+Seoul, Korea: SEL
+
+Shannon, Ireland: SNN
+
+Singapore: SIN
+
+St. Croix, U.S. Virgin Islands: STX
+
+St. Lucia: SLU
+
+St. Maarten, Netherlands Antilles: SXM
+
+St. Petersburg, Russia: LED
+
+St. Thomas, U.S. Virgin Islands: STT
+
+Stockholm, Sweden: ARN
+
+Stuttgart, Germany: STR
+
+Sydney, Australia: SYD
+
+Taipei, Taiwan: TPE
+
+Tel Aviv, Israel: TLV
+
+Tokyo (Narita), Japan: NRT
+
+Tortola, British Virgin Islands: EIS
+
+Vienna, Austria: VIE
+
+Warsaw, Poland: WAW
+
+Xian Xianyang, China: XIY
+
+United States Airport Codes
+United States A–B
+Abilene, Texas: ABI
+
+Akron/Canton, Ohio: CAK
+
+Albany, New York: ALB
+
+Albuquerque, New Mexico: ABQ
+
+Allentown, Pennsylvania: ABE
+
+Amarillo, Texas: AMA
+
+Anchorage, Alaska: ANC
+
+Appleton, Wisconsin: ATW
+
+Atlanta, Georgia: ATL
+
+Austin, Texas: AUS
+
+Bakersfield, California: BFL
+
+Baltimore, Maryland: BWI
+
+Bangor, Maine: BGR
+
+Baton Rouge, Louisiana: BTR
+
+Beaumont/Port Arthur, Texas: BPT
+
+Billings, Montana: BIL
+
+Birmingham, Alabama: BHM
+
+Bloomington, Illinois: BMI
+
+Boise, Idaho: BOI
+
+Boston, Massachusetts: BOS
+
+Buffalo, New York: BUF
+
+Burbank, California: BUR
+
+Burlington, Vermont: BTV
+
+United States C–D
+Calgary, Canada: YYC
+
+Cedar Rapids, Iowa: CID
+
+Champaign/Urbana, Illinois: CMI
+
+Charleston, South Carolina: CHS
+
+Charlotte, North Carolina: CLT
+
+Chattanooga, Tennessee: CHA
+
+Chicago, Illinois (Midway): MDW
+
+Chicago, Illinois (O’Hare): ORD
+
+Cincinnati, Ohio: CVG
+
+Cleveland, Ohio: CLE
+
+Colorado Springs, Colorado: COS
+
+Columbia, South Carolina: CAE
+
+Columbus, Ohio: CMH
+
+Corpus Christi, Texas: CRP
+
+Dallas-Fort Worth, Texas: DFW
+
+Dayton, Ohio: DAY
+
+Denver, Colorado: DEN
+
+Des Moines, Iowa: DSM
+
+Detroit, Michigan (City): DET
+
+Detroit, Michigan (Metro): DTW
+
+Dubuque, Iowa: DBQ
+
+Durango, Colorado: DRO
+
+United States L–N
+La Crosse, Wisconsin: LSE
+
+Lafayette, Louisiana: LFT
+
+Lake Charles, Louisiana: LCH
+
+Lansing, Michigan: LAN
+
+Las Vegas, Nevada: LAS
+
+Lexington, Kentucky: LEX
+
+Lihue, Kauai, Hawaii: LIH
+
+Lincoln, Nebraska: LNK
+
+Little Rock, Arkansas: LIT
+
+Long Beach, California: LGB
+
+Los Angeles, California: LAX
+
+Louisville, Kentucky: SDF
+
+Lubbock, Texas: LBB
+
+Madison, Wisconsin: MSN
+
+Manchester, New Hampshire: MHT
+
+Marquette, Michigan: MQT
+
+Maui, Hawaii: OGG
+
+McAllen, Texas: MFE
+
+Medford, Oregon: MFR
+
+Melbourne, Florida: MLB
+
+Memphis, Tennessee: MEM
+
+Miami, Florida: MIA
+
+Milwaukee, Wisconsin: MKE
+
+Minneapolis, Minnesota: MSP
+
+Mobile, Alabama: MOB
+
+Moline, Illinois: MLI
+
+Molokai, Hawaii: MKK
+
+Monterey, California: MRY
+
+Montgomery, Alabama: MGM
+
+Montreal, Canada: YUL
+
+Muskegon, Michigan: MKG
+
+Myrtle Beach, South Carolina: MYR
+
+Nashville, Tennessee: BNA
+
+New Haven, Connecticut: HVN
+
+New Orleans, Louisiana: MSY
+
+New York, New York (Kennedy): JFK
+
+New York, New York (La Guardia): LGA
+
+Newark, New Jersey: EWR
+
+Newburgh, New York: SWF
+
+Newport News, Virginia: PHF
+
+Norfolk, Virginia: ORF
+
+United States O–P
+Oakland, California: OAK
+
+Odessa/Midland, Texas: MAF
+
+Oklahoma City, Oklahoma: OKC
+
+Omaha, Nebraska: OMA
+
+Ontario, California: ONT
+
+Orange County, California: SNA
+
+Orlando, Florida: MCO
+
+Ottawa, Canada: YOW
+
+Owensboro, Kentucky: OWB
+
+Oxnard, California: OXR
+
+Palm Springs, California: PSP
+
+Pasco, Washington: PSC
+
+Pensacola, Florida: PNS
+
+Peoria, Illinois: PIA
+
+Philadelphia, Pennsylvania: PHL
+
+Phoenix, Arizona: PHX
+
+Pittsburgh, Pennsylvania: PIT
+
+Portland, Maine: PWM
+
+Portland, Oregon: PDX
+
+Providence, Rhode Island: PVD
+
+United States Q–S
+Quebec, Canada: YQB
+
+Raleigh-Durham, North Carolina: RDU
+
+Reno, Nevada: RNO
+
+Richmond, Virginia: RIC
+
+Roanoke, Virginia: ROA
+
+Rochester, Minnesota: RST
+
+Rochester, New York: ROC
+
+Sacramento, California: SMF
+
+Salt Lake City, Utah: SLC
+
+San Angelo, Texas: SJT
+
+San Antonio, Texas: SAT
+
+San Diego, California: SAN
+
+San Francisco, California: SFO
+
+San Jose, California: SJC
+
+Santa Barbara, California: SBA
+
+Sarasota, Florida: SRQ
+
+Savannah, Georgia: SAV
+
+Seattle, Washington: SEA
+
+Shreveport, Louisiana: SHV
+
+Sioux Falls, South Dakota: FSD
+
+South Bend, Indiana: SBN
+
+Spokane, Washington: GEG
+
+Springfield, Illinois: SPI
+
+Springfield, Missouri: SGF
+
+St. Louis, Missouri: STL
+
+Syracuse, New York: SYR
+
+United States T–W
+Tallahassee, Florida: TLH
+
+Tampa, Florida: TPA
+
+Toledo, Ohio: TOL
+
+Toronto, Canada: YYZ
+
+Traverse City, Michigan: TVC
+
+Tri City, Tennessee: TRI
+
+Tucson, Arizona: TUS
+
+Tulsa, Oklahoma: TUL
+
+Vail, Colorado: EGE
+
+Vancouver, Canada: YVR
+
+Waco, Texas: ACT
+
+Washington, D.C. (Dulles): IAD
+
+Washington, D.C. (National): DCA
+
+Wausau/Stevens Point, Wisconsin: CWA
+
+West Palm Beach, Florida: PBI
+
+Westchester County, New York: HPN
+
+Wichita, Kansas: ICT
+
+Wilmington, North Carolina: ILM
+
+Wilkes Barre, Pennsylvania: AVP

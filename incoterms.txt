@@ -1,0 +1,56 @@
+The Incoterms®️ (International Commercial Terms) are essential in international trade as they define the responsibilities of buyers and sellers regarding the delivery of goods. Each term specifies who is responsible for shipping, insurance, duties, and tariffs, thereby minimizing disputes and misunderstandings. Here’s a more detailed look at each Incoterm and its implications:
+
+ 1.⁠ ⁠EXW (Ex Works): 
+   - Seller’s Responsibility: Minimal; just makes goods available.
+   - Buyer’s Responsibility: Covers all costs and risks from the seller’s premises to the destination.
+
+ 2.⁠ ⁠FCA (Free Carrier): 
+   - Seller’s Responsibility: Delivers goods to a carrier or specified location.
+   - Buyer’s Responsibility: Takes over once the goods are delivered to the carrier.
+
+ 3.⁠ ⁠CPT (Carriage Paid To):
+   - Seller’s Responsibility: Pays for transportation to the destination.
+   - Buyer’s Responsibility: Risk transfers to the buyer once the goods are handed to the carrier.
+
+ 4.⁠ ⁠CIP (Carriage and Insurance Paid To): 
+   - Seller’s Responsibility: Pays for transport and insurance.
+   - Buyer’s Responsibility: Risk transfers once the goods are handed to the carrier.
+
+ 5.⁠ ⁠DAP (Delivered at Place): 
+   - Seller’s Responsibility: Delivery to a specified destination, ready for unloading.
+   - Buyer’s Responsibility: Takes risk upon arrival.
+
+ 6.⁠ ⁠DPU (Delivered at Place Unloaded): 
+   - Seller’s Responsibility: Delivers and unloads goods at the designated location.
+   - Buyer’s Responsibility: Takes over after unloading.
+
+ 7.⁠ ⁠DDP (Delivered Duty Paid): 
+   - Seller’s Responsibility: Covers all costs, including duties and taxes.
+   - Buyer’s Responsibility: Takes possession upon delivery.
+
+ 8.⁠ ⁠FAS (Free Alongside Ship): 
+   - Seller’s Responsibility: Delivers goods alongside the ship.
+   - Buyer’s Responsibility: Takes risk once the goods are alongside the vessel.
+
+ 9.⁠ ⁠FOB (Free on Board): 
+   - Seller’s Responsibility: Delivers goods on board the vessel.
+   - Buyer’s Responsibility: Assumes risk once goods are on board.
+
+10.⁠ ⁠CFR (Cost and Freight): 
+   - Seller’s Responsibility: Pays shipping costs to the destination port.
+   - Buyer’s Responsibility: Assumes risk once goods are on board.
+
+11.⁠ ⁠CIF (Cost, Insurance, and Freight): 
+   - Seller’s Responsibility: Pays shipping and insurance to the destination.
+   - Buyer’s Responsibility: Risk transfers when goods are on board.
+
+### Importance of Incoterms:
+•⁠  ⁠Risk Management: Clearly defines when the risk transfers from seller to buyer.
+•⁠  ⁠Cost Allocation: Outlines who bears which costs, preventing disputes.
+•⁠  ⁠Legal Clarity: Provides a common language for international trade, reducing legal ambiguity.
+•⁠  ⁠Trade Facilitation: Eases the logistics planning for both parties.
+
+### Updates in Incoterms 2020:
+•⁠  ⁠Introduction of DPU (Delivered at Place Unloaded) which replaces DAT (Delivered at Terminal).
+•⁠  ⁠Clarification on insurance requirements under CIP and CIF terms.
+•⁠  ⁠Emphasis on the use of electronic documents and communications.
