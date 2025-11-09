@@ -26,7 +26,7 @@ const CustomsClearance = () => {
       <section className="relative text-white min-h-[100vh] flex items-start pt-20 md:pt-32">
         {/* Background Image */}
         <LazyBackground 
-          src="/assets/Customs_Clearance.jpg"
+          src="/assets/Customs_Clearance.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
         

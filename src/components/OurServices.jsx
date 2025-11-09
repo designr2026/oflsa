@@ -33,7 +33,7 @@ const OurServices = () => {
   const transportServices = [
     {
       title: "Project & Oversize Shipments",
-      image: "/assets/Project_&_Oversize_Shipments.jpg",
+      image: "/assets/Project_&_Oversize_Shipments.webp",
       description: "OFL International offers specialized solutions for oversized, heavy, or unconventional cargo that requires more than standard transport. With access to a wide range of equipment, we ensure safe, compliant, and efficient movement from origin to destination."
     },
     {
@@ -46,27 +46,27 @@ const OurServices = () => {
   const freightServices = [
     {
       title: "Air Freight",
-      image: "/assets/air_frieght.jpg",
+      image: "/assets/air_frieght.webp",
       description: "Fast. Reliable. Global. OFL International provides premium air freight solutions from Saudi Arabia and across the Middle East to destinations worldwide. Whether your shipping terms are EXW, FOB, C&F, CIF, or DDP, we deliver seamless, end-to-end handling — from pickup to final delivery."
     },
     {
       title: "Sea Freight",
-      image: "/assets/sea_freight.jpg",
+      image: "/assets/sea_freight.webp",
       description: "Efficient Sea Freight Services – Covering Ports Worldwide. Whether your shipment is under FOB, CIF, EXW, or DDP terms, we provide flexible LCL and FCL options — complete with documentation, customs clearance, and timely delivery."
     },
     {
       title: "Road Freight",
-      image: "/assets/road_freight.jpg",
+      image: "/assets/road_freight.webp",
       description: "Reliable Land Freight Across the Region. OFL International delivers efficient land freight solutions connecting Saudi Arabia and the Middle East with smooth cross-border transport. Whether your cargo requires FTL or LTL services under EXW, FOB, or DDP terms, we ensure safe, timely deliveries."
     },
     {
       title: "Customs Clearance",
-      image: "/assets/Customs_Clearance.jpg",
+      image: "/assets/Customs_Clearance.webp",
       description: "Smooth & Hassle-Free Customs Clearance. OFL International offers expert customs clearance services to ensure your cargo moves swiftly. From paperwork to port release — we clear the way for your cargo."
     },
     {
       title: "Freight Insurance",
-      image: "/assets/Freight_Insurance.jpg",
+      image: "/assets/Freight_Insurance.webp",
       description: "Protect Your Cargo with Freight Insurance. At OFL International, we offer reliable freight insurance solutions to safeguard your shipments against loss, damage, or unforeseen events during transit. Your cargo is valuable — we make sure it's protected."
     }
   ];
@@ -74,12 +74,12 @@ const OurServices = () => {
   const warehousingServices = [
     {
       title: "Warehousing & Distribution",
-      image: "/assets/Warehousing_&_Distribution.jpg",
+      image: "/assets/Warehousing_&_Distribution.webp",
       description: "OFL International provides reliable warehousing and efficient distribution services tailored to your supply chain needs. Our strategically located facilities ensure seamless storage, inventory management, and timely dispatch."
     },
     {
       title: "Food Storage",
-      image: "/assets/Food_Storage.jpg",
+      image: "/assets/Food_Storage.webp",
       description: "OFL International offers specialized food storage services with both refrigerated and standard (dry) warehousing options. Our temperature-controlled facilities maintain the integrity and freshness of perishable goods."
     }
   ];
@@ -87,7 +87,7 @@ const OurServices = () => {
   const otherSolutions = [
     {
       title: "Consolidation Service",
-      image: "/assets/Consolidation Service.jpg",
+      image: "/assets/Consolidation Service.webp",
       description: "With an aim to provide extra-efficient, seamless, and cost-effective services, OFL International has developed a consolidation hub in Amsterdam, Netherlands. This gives us an edge over others in both time and cost savings."
     }
   ];

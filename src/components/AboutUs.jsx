@@ -11,7 +11,7 @@ const AboutUs = () => {
           <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
             <div className="relative w-80 h-80 rounded-lg shadow-lg overflow-hidden">
               <LazyImage 
-                src="/assets/ceo.jpeg" 
+                src="/assets/ceo.webp" 
                 alt="Rafeek Sharafudeen, Founder & CEO" 
                 className="w-full h-full object-cover"
               />

@@ -20,7 +20,7 @@ const Hero = () => {
     <section className="relative text-white min-h-[380px] md:min-h-[100vh] overflow-visible">
       {/* Background Image */}
         <LazyBackground 
-          src="/assets/home__page.jpg"
+          src="/assets/home__page.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
       

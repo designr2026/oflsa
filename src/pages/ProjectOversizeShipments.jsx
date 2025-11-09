@@ -26,7 +26,7 @@ const ProjectOversizeShipments = () => {
       <section className="relative text-white min-h-[100vh] flex items-start pt-20 md:pt-32">
         {/* Background Image */}
         <LazyBackground 
-          src="/assets/Project_&_Oversize_Shipments.jpg"
+          src="/assets/Project_&_Oversize_Shipments.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
         

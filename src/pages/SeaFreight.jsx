@@ -26,7 +26,7 @@ const SeaFreight = () => {
       <section className="relative text-white min-h-[100vh] flex items-start pt-20 md:pt-32">
         {/* Background Image */}
         <LazyBackground 
-          src="/assets/sea_freight.jpg"
+          src="/assets/sea_freight.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
         

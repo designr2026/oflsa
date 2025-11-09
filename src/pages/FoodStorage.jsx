@@ -26,7 +26,7 @@ const FoodStorage = () => {
       <section className="relative text-white min-h-[100vh] flex items-start pt-20 md:pt-32">
         {/* Background Image */}
         <LazyBackground 
-          src="/assets/Food_Storage.jpg"
+          src="/assets/Food_Storage.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
         

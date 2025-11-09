@@ -3,10 +3,10 @@ import LazyImage from './LazyImage';
 
 const LogoMarquee = () => {
   const logos = [
-    { src: '/assets/logo_banner_1.png', alt: 'Project Cargo Network' },
-    { src: '/assets/logo_banner_2.png', alt: 'WCAworld' },
-    { src: '/assets/logo_banner_3.jpeg', alt: 'PPL Networks' },
-    { src: '/assets/logo_banner_4.jpeg', alt: 'JCTRANS' }
+    { src: '/assets/logo_banner_1.webp', alt: 'Project Cargo Network' },
+    { src: '/assets/logo_banner_2.webp', alt: 'WCAworld' },
+    { src: '/assets/logo_banner_3.webp', alt: 'PPL Networks' },
+    { src: '/assets/logo_banner_4.webp', alt: 'JCTRANS' }
   ];
 
   return (

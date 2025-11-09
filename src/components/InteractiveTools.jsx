@@ -56,7 +56,7 @@ const InteractiveTools = () => {
     <section className="relative -mt-32 md:-mt-48 z-20">
       {/* Blurred background from hero section */}
       <LazyBackground 
-        src="/assets/home__page.jpg"
+        src="/assets/home__page.webp"
         className="absolute inset-0 bg-cover bg-center bg-no-repeat filter blur-sm"
       />
       

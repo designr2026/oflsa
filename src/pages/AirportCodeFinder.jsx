@@ -326,7 +326,7 @@ const AirportCodeFinder = () => {
       {/* Hero Section */}
       <section className="relative pt-28 sm:pt-32 md:pt-36 pb-16 sm:pb-18 md:pb-20">
         <LazyBackground 
-          src="/assets/home__page.jpg"
+          src="/assets/home__page.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
