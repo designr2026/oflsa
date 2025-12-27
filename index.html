@@ -1,51 +1,67 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OFL - Orbit Freight & Logistics | Global Shipping Solutions</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Orbit Freight & Logistics - Your trusted partner for global shipping, air cargo, sea freight, road transport, and logistics solutions." />
-    <meta name="keywords" content="freight, logistics, shipping, cargo, air freight, sea freight, customs clearance" />
-    
-    <!-- Preconnect to external resources -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
-    <!-- Preload critical assets for faster LCP -->
-    <link rel="preload" href="/assets/videos/hero_vid_poster.webp" as="image" />
-    <link rel="preload" href="/assets/videos/hero_vid_480p.mp4" as="video" type="video/mp4" />
-    
-    <!-- DNS Prefetch -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    
-    <!-- Critical CSS for above-the-fold content (inline for instant render) -->
-    <style>
-      /* Critical CSS - prevents layout shift */
-      body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
-      #root { min-height: 100vh; }
-      .loading-spinner {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 48px;
-        height: 48px;
-        border: 4px solid #1e3a8a;
-        border-top-color: transparent;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OFL - Orbit Freight & Logistics | Global Shipping Solutions</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Orbit Freight & Logistics - Your trusted partner for global shipping, air cargo, sea freight, road transport, and logistics solutions." />
+  <meta name="keywords" content="freight, logistics, shipping, cargo, air freight, sea freight, customs clearance" />
+
+  <!-- Preconnect to external resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Preload critical assets for faster LCP -->
+  <link rel="preload" href="/assets/videos/hero_vid_poster.webp" as="image" />
+  <link rel="preload" href="/assets/videos/hero_vid.mp4" as="video" type="video/mp4" />
+
+  <!-- DNS Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+  <!-- Critical CSS for above-the-fold content (inline for instant render) -->
+  <style>
+    /* Critical CSS - prevents layout shift */
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    #root {
+      min-height: 100vh;
+    }
+
+    .loading-spinner {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 48px;
+      height: 48px;
+      border: 4px solid #1e3a8a;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: translate(-50%, -50%) rotate(360deg);
       }
-      @keyframes spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
-    </style>
-  </head>
-  <body>
-    <div id="root">
-      <!-- Initial loading state shown before React hydrates -->
-      <div class="loading-spinner" aria-label="Loading..."></div>
-    </div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
+    <!-- Initial loading state shown before React hydrates -->
+    <div class="loading-spinner" aria-label="Loading..."></div>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

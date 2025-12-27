@@ -1,11 +1,11 @@
 import React, { useRef, useEffect, useState } from 'react';
 
-const AdaptiveVideo = ({ 
+const AdaptiveVideo = ({
   sources = {
-    high: '/assets/videos/hero_vid_480p.mp4',
-    medium: '/assets/videos/hero_vid_480p.mp4',
+    high: '/assets/videos/hero_vid.mp4',
+    medium: '/assets/videos/hero_vid.mp4',
     low: '/assets/videos/hero_vid_480p.mp4',
-    // Single optimized video for fast loading
+    // Fallback for slow connections
     original: '/assets/videos/hero_vid_480p.mp4'
   },
   poster = '/assets/videos/hero_vid_poster.webp',
@@ -30,7 +30,7 @@ const AdaptiveVideo = ({
       if (connection) {
         const effectiveType = connection.effectiveType;
         const downlink = connection.downlink;
-        
+
         // Determine quality based on connection
         if (effectiveType === '4g' && downlink > 5) {
           setConnectionSpeed('high');
@@ -44,7 +44,7 @@ const AdaptiveVideo = ({
         const handleConnectionChange = () => {
           const newEffectiveType = connection.effectiveType;
           const newDownlink = connection.downlink;
-          
+
           if (newEffectiveType === '4g' && newDownlink > 5) {
             setConnectionSpeed('high');
           } else if (newEffectiveType === '4g' || (newEffectiveType === '3g' && newDownlink > 1.5)) {
@@ -93,7 +93,7 @@ const AdaptiveVideo = ({
       // Start with medium quality, then upgrade/downgrade based on connection
       // Fallback chain: high -> medium -> low -> original
       let initialSource = sources.medium || sources.low || sources.high || sources.original;
-      
+
       if (connectionSpeed === 'high' && sources.high) {
         initialSource = sources.high;
       } else if (connectionSpeed === 'low' && sources.low) {
@@ -108,7 +108,7 @@ const AdaptiveVideo = ({
         // Only use original as last resort (it's large)
         initialSource = sources.original;
       }
-      
+
       setCurrentSource(initialSource);
     }
   }, [isVisible, connectionSpeed, sources, hasError]);
@@ -126,7 +126,7 @@ const AdaptiveVideo = ({
   // Handle video errors - fallback to lower quality
   const handleError = () => {
     console.warn('Video failed to load, trying fallback...');
-    
+
     if (currentSource === sources.high && sources.medium) {
       setCurrentSource(sources.medium);
     } else if (currentSource === sources.medium && sources.low) {
@@ -201,7 +201,7 @@ const AdaptiveVideo = ({
   if (hasError) {
     // Fallback to poster image if all video sources fail
     return (
-      <div 
+      <div
         className={className}
         style={{
           backgroundImage: `url('${poster}')`,
