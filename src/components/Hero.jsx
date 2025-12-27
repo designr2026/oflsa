@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import AdaptiveVideo from './AdaptiveVideo';
 import LazyBackground from './LazyBackground';
 
 const Hero = () => {
   const navigate = useNavigate();
+  const [videoError, setVideoError] = useState(false);
 
   const handleConnectClick = () => {
     navigate('/contact');
@@ -16,13 +18,24 @@ const Hero = () => {
     }, 100);
   };
 
+  const handleVideoError = () => {
+    setVideoError(true);
+  };
+
   return (
     <section className="relative text-white min-h-[380px] md:min-h-[100vh] overflow-visible">
-      {/* Background Image */}
+      {/* Background Video with fallback to image */}
+      {!videoError ? (
+        <AdaptiveVideo
+          className="absolute inset-0 w-full h-full object-cover"
+          onError={handleVideoError}
+        />
+      ) : (
         <LazyBackground 
           src="/assets/home__page.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
+      )}
       
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>

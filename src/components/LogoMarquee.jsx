@@ -12,7 +12,7 @@ const LogoMarquee = () => {
   return (
     <section className="bg-white py-8 md:py-12 overflow-hidden">
       <div className="container mx-auto px-4">
-        <h2 className="text-center text-slate-600 text-xl md:text-2xl font-semibold mb-6 md:mb-8">Our Partners</h2>
+        <h2 className="text-center text-slate-600 text-xl md:text-2xl font-semibold mb-6 md:mb-8">Our Network</h2>
       </div>
       <div className="relative">
         <div className="flex animate-scroll hover:pause-animation">

@@ -22,7 +22,7 @@ const AboutUs = () => {
           
           {/* Right Column - Text */}
           <div className="order-1 lg:order-2">
-            <h2 className="text-3xl font-bold text-blue-900 mb-6">About Orbit Freight Logistics Agency</h2>
+            <h2 className="text-3xl font-bold text-blue-900 mb-6">About OFL INTERNATIONAL</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4 italic">
               "As we mark another milestone in our journey, I extend my heartfelt gratitude to every client, partner, and team member who has contributed to our growth. What started as a vision in 2011 has grown into a trusted logistics name across borders."
             </p>

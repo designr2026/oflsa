@@ -156,8 +156,7 @@ const OurServices = () => {
                 />
               </div>
               <div className="p-4 md:p-6">
-                <h3 className="text-lg md:text-xl font-bold text-blue-900 mb-2 md:mb-3">{service.title}</h3>
-                <p className="text-gray-700 text-xs md:text-sm leading-relaxed">{service.description}</p>
+                <h3 className="text-lg md:text-xl font-bold text-blue-900">{service.title}</h3>
               </div>
             </div>
           ))}
