@@ -19,7 +19,7 @@ const OurServices = () => {
       'Consolidation Service': '/consolidation-service',
       'Food Storage': '/food-storage'
     };
-    
+
     const route = routeMap[serviceTitle];
     if (route) {
       navigate(route);
@@ -38,7 +38,7 @@ const OurServices = () => {
     },
     {
       title: "Event Logistics",
-      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Event_Logistics.webp",
       description: "Seamless Event Logistics – From Planning to Execution. OFL International provides specialized event logistics solutions for exhibitions, conferences, and live events. From freight coordination and customs clearance to on-site delivery and setup, we handle every detail with precision."
     }
   ];
@@ -87,13 +87,13 @@ const OurServices = () => {
   const otherSolutions = [
     {
       title: "Consolidation Service",
-      image: "/assets/Consolidation Service.webp",
+      image: "/assets/Consolidation_Service.webp",
       description: "With an aim to provide extra-efficient, seamless, and cost-effective services, OFL International has developed a consolidation hub in Amsterdam, Netherlands. This gives us an edge over others in both time and cost savings."
     }
   ];
 
   const getServices = () => {
-    switch(selectedService) {
+    switch (selectedService) {
       case 'Transport Solution':
         return transportServices;
       case 'Freight Solutions':
@@ -109,17 +109,17 @@ const OurServices = () => {
 
   const services = getServices();
 
-      return (
-        <section className="bg-white py-8 md:py-16">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 md:mb-6 pt-8 md:pt-16">OUR SERVICES</h2>
-        
+  return (
+    <section className="bg-white py-8 md:py-16">
+      <div className="container mx-auto px-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 md:mb-6 pt-8 md:pt-16">OUR SERVICES</h2>
+
         {/* Dropdown */}
         <div className="mb-8 md:mb-12">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
             <span className="text-gray-500 text-sm">Please select</span>
             <div className="relative w-full sm:w-auto">
-              <select 
+              <select
                 value={selectedService}
                 onChange={(e) => {
                   setSelectedService(e.target.value);
@@ -143,8 +143,8 @@ const OurServices = () => {
         {/* Service Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
           {services.map((service, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer hover:scale-105"
               onClick={() => handleServiceClick(service.title)}
             >

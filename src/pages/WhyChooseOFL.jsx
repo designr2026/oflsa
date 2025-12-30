@@ -16,55 +16,55 @@ const WhyChooseOFL = () => {
   const services = [
     {
       title: "Air Freight",
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/air_frieght.webp",
       description: "At Orbit Freight Logistics Agency (OFL), we take pride in offering comprehensive air freight services across the Kingdom of Saudi Arabia, the entire GCC region, and worldwide. We understand the critical role air freight plays in today's fast-paced business environment.",
       route: "/air-logistics"
     },
     {
       title: "Sea Freight",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/sea_freight.webp",
       description: "Orbit Freight Logistics Agency (OFL) empowers your business to navigate the global marketplace with our comprehensive sea freight services. We operate across all ports in Saudi Arabia, the GCC region, and beyond, with a global reach ensuring seamless delivery wherever your cargo needs to go.",
       route: "/sea-freight"
     },
     {
       title: "Road Freight",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/road_freight.webp",
       description: "Orbit Freight Logistics Agency (OFL) keeps your business moving across the Kingdom and beyond with our comprehensive road freight services. Our network spans all Saudi Arabian border crossings, ensuring seamless and efficient delivery throughout the region and beyond.",
       route: "/road-freight"
     },
     {
       title: "Customs Clearance",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Customs_Clearance.webp",
       description: "Orbit Freight Logistics Agency (OFL) understands the complexities of navigating customs regulations. That's why we offer comprehensive and efficient customs clearance services across all ports in the Kingdom of Saudi Arabia. Our team of highly experienced professionals, equipped with in-depth knowledge of local and international customs procedures.",
       route: "/customs-clearance"
     },
     {
       title: "Project & Oversize Shipments",
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Project_&_Oversize_Shipments.webp",
       description: "At Orbit Freight Logistics (OFL), we understand that handling 'out-of-gauge' and bulk shipments requires specialized expertise. That's why we offer tailored solutions for your complex and oversized cargo, ensuring efficient, safe, and cost-effective transportation globally.",
       route: "/project-oversize-shipments"
     },
     {
       title: "Event Logistics",
-      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Event_Logistics.webp",
       description: "Orbit Freight & Logistics: Your Stress-Free Event Logistics Partner. Planning an event can be overwhelming. At Orbit Freight & Logistics, we understand the countless details involved, from booth setup to equipment transport. That's why we offer customized solutions tailored to your specific event needs.",
       route: "/event-logistics"
     },
     {
       title: "Freight Insurance",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Freight_Insurance.webp",
       description: "While everyone involved strives for a smooth delivery, unforeseen circumstances like natural disasters can threaten your cargo. Here at Orbit Freight Logistics (OFL), we understand the importance of protecting your goods during transport. That's why we offer comprehensive freight insurance solutions to safeguard your investments and provide peace of mind throughout your supply chain journey.",
       route: "/freight-insurance"
     },
     {
       title: "Food Storage",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Food_Storage.webp",
       description: "At Orbit Freight Logistics (OFL), we understand the importance of reliable storage for your valuable goods. That's why we offer comprehensive warehousing solutions tailored to meet your specific needs. Our Warehousing Services in Riyadh offers state-of-the-art facilities with advanced security systems and climate control to ensure your products are stored safely and efficiently.",
       route: "/food-storage"
     },
     {
       title: "Consolidation Service",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "/assets/Consolidation_Service.webp",
       description: "At Orbit Freight & Logistics (OFL), we're obsessed with providing the most efficient and cost-effective solutions for your global supply chain. That's why we offer a powerful consolidation service designed to save you time and money. Introducing our Amsterdam Consolidation Hub, strategically located to optimize your European distribution network.",
       route: "/consolidation-service"
     }
@@ -78,7 +78,7 @@ const WhyChooseOFL = () => {
       <section className="relative text-white min-h-[100vh] flex items-start pt-32">
         {/* Background Image */}
         <LazyBackground
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          src="/assets/Consolidation_Service.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
 

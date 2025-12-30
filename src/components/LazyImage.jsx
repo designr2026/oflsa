@@ -11,74 +11,96 @@ const generatePlaceholder = (width = 20, height = 20, color = '#241afe') => {
   return `data:image/svg+xml;base64,${btoa(svg)}`;
 };
 
-const LazyImage = ({ 
-  src, 
-  alt, 
-  className = '', 
+const LazyImage = ({
+  src,
+  alt,
+  className = '',
   placeholder = null,
-  ...props 
+  ...props
 }) => {
+  const imgRef = useRef(null);
   const [imageSrc, setImageSrc] = useState(placeholder || generatePlaceholder());
-  const [imageRef, setImageRef] = useState();
   const [isLoaded, setIsLoaded] = useState(false);
-  const [isInView, setIsInView] = useState(false);
+  const prevSrcRef = useRef(src);
 
+  // Load image when src changes or component mounts
   useEffect(() => {
-    let observer;
-    let didCancel = false;
-
-    if (imageRef && imageSrc !== src) {
-      if (IntersectionObserver) {
-        observer = new IntersectionObserver(
-          entries => {
-            entries.forEach(entry => {
-              if (
-                !didCancel &&
-                (entry.intersectionRatio > 0 || entry.isIntersecting)
-              ) {
-                setIsInView(true);
-                observer.unobserve(imageRef);
-              }
-            });
-          },
-          {
-            threshold: 0.01,
-            rootMargin: '50px'
-          }
-        );
-        observer.observe(imageRef);
-      } else {
-        // Fallback for older browsers
-        setIsInView(true);
-      }
+    // Reset if src changed
+    if (prevSrcRef.current !== src) {
+      setIsLoaded(false);
+      setImageSrc(placeholder || generatePlaceholder());
+      prevSrcRef.current = src;
     }
 
-    return () => {
-      didCancel = true;
-      if (observer && observer.unobserve) {
-        observer.unobserve(imageRef);
-      }
-    };
-  }, [imageRef, imageSrc, src]);
+    let didCancel = false;
 
-  useEffect(() => {
-    if (isInView && !isLoaded) {
+    const loadImage = () => {
       const img = new Image();
       img.src = src;
       img.onload = () => {
-        setImageSrc(src);
-        setIsLoaded(true);
+        if (!didCancel) {
+          setImageSrc(src);
+          setIsLoaded(true);
+        }
       };
       img.onerror = () => {
-        // Keep placeholder on error
-        console.error(`Failed to load image: ${src}`);
+        if (!didCancel) {
+          console.error(`Failed to load image: ${src}`);
+        }
       };
+    };
+
+    // Check if element is in viewport
+    const checkVisibility = () => {
+      if (!imgRef.current) return false;
+      const rect = imgRef.current.getBoundingClientRect();
+      return (
+        rect.top < window.innerHeight + 50 &&
+        rect.bottom > -50 &&
+        rect.left < window.innerWidth + 50 &&
+        rect.right > -50
+      );
+    };
+
+    // If already visible, load immediately
+    if (checkVisibility()) {
+      loadImage();
+      return () => { didCancel = true; };
     }
-  }, [isInView, src, isLoaded]);
+
+    // Otherwise use intersection observer
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && !didCancel) {
+              loadImage();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.01, rootMargin: '50px' }
+      );
+
+      if (imgRef.current) {
+        observer.observe(imgRef.current);
+      }
+
+      return () => {
+        didCancel = true;
+        observer.disconnect();
+      };
+    } else {
+      // Fallback for older browsers
+      loadImage();
+    }
+
+    return () => { didCancel = true; };
+  }, [src, placeholder]);
 
   return (
     <img
-      ref={setImageRef}
+      ref={imgRef}
       src={imageSrc}
       alt={alt}
       className={`${className} ${!isLoaded ? 'blur-sm' : 'blur-0'} transition-all duration-300`}
@@ -89,4 +111,3 @@ const LazyImage = ({
 };
 
 export default LazyImage;
-

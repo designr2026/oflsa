@@ -54,30 +54,21 @@ const InteractiveTools = () => {
 
   return (
     <section className="relative -mt-32 md:-mt-48 z-20">
-      {/* Blurred background from hero section */}
-      <LazyBackground 
-        src="/assets/home__page.webp"
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat filter blur-sm"
-      />
-      
+      {/* Solid brand blue background */}
+      <div className="absolute inset-0" style={{ backgroundColor: '#241afe' }}></div>
+
       <div className="w-full relative">
         {/* Glass morphism bar with iPhone-like design */}
         <div className="relative w-full">
-          {/* Glass background with blur */}
-          <div className="absolute inset-0 bg-white bg-opacity-5 backdrop-blur-xl rounded-none"></div>
-          
-          {/* Glass border effect */}
-          <div className="absolute inset-0 bg-gradient-to-r from-white/10 via-white/15 via-white/15 to-white/10 rounded-none"></div>
-          
-          {/* Inner glass highlight */}
-          <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent rounded-none"></div>
-          
+          {/* White glass highlight on top */}
+          <div className="absolute inset-0 bg-gradient-to-b from-white/20 to-white/5"></div>
+
           {/* Main glass container */}
           <div className="relative py-4 md:py-4 px-4 md:px-8">
             <div className="grid grid-cols-2 md:flex md:justify-evenly items-center w-full gap-4 md:gap-0">
               {tools.map((tool, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="flex flex-col items-center group md:flex-1 cursor-pointer"
                   onClick={() => handleToolClick(tool.route)}
                 >
