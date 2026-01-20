@@ -15,8 +15,6 @@ const AboutUs = () => {
                 alt="Rafeek Sharafudeen, Founder & CEO"
                 className="w-full h-full object-cover"
               />
-              {/* Fill overlay */}
-              <div className="absolute inset-0 bg-[#241afe] opacity-100"></div>
             </div>
           </div>
 
