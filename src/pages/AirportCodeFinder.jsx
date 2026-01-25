@@ -33,40 +33,63 @@ const AirportCodeFinder = () => {
     { city: "Bucharest", country: "Romania", code: "OTP" },
     { city: "Budapest", country: "Hungary", code: "BUD" },
     { city: "Buenos Aires", country: "Argentina", code: "EZE" },
-    
+
     // International C-G
+    { city: "Cairo", country: "Egypt", code: "CAI" },
+    { city: "Calcutta", country: "India", code: "CCU" },
     { city: "Cancun", country: "Mexico", code: "CUN" },
     { city: "Cape Town", country: "South Africa", code: "CPT" },
     { city: "Caracas", country: "Venezuela", code: "CCS" },
     { city: "Casablanca", country: "Morocco", code: "CMN" },
+    { city: "Chengdu", country: "China", code: "CTU" },
+    { city: "Chennai", country: "India", code: "MAA" },
     { city: "Colombo", country: "Sri Lanka", code: "CMB" },
+    { city: "Copenhagen", country: "Denmark", code: "CPH" },
     { city: "Cozumel", country: "Mexico", code: "CZM" },
+    { city: "Delhi", country: "India", code: "DEL" },
+    { city: "Dhaka", country: "Bangladesh", code: "DAC" },
+    { city: "Doha", country: "Qatar", code: "DOH" },
     { city: "Dominica", country: "Dominica", code: "DOM" },
+    { city: "Dubai", country: "United Arab Emirates", code: "DXB" },
     { city: "Dublin", country: "Ireland", code: "DUB" },
     { city: "Dusseldorf", country: "Germany", code: "DUS" },
+    { city: "Edinburgh", country: "Scotland, UK", code: "EDI" },
+    { city: "Florence", country: "Italy", code: "FLR" },
     { city: "Frankfurt", country: "Germany", code: "FRA" },
+    { city: "Fukuoka", country: "Japan", code: "FUK" },
     { city: "Geneva", country: "Switzerland", code: "GVA" },
     { city: "Glasgow", country: "United Kingdom", code: "GLA" },
     { city: "Gothenburg", country: "Sweden", code: "GOT" },
     { city: "Governors Harbour", country: "Bahamas", code: "GHB" },
     { city: "Guadalajara", country: "Mexico", code: "GDL" },
+    { city: "Guangzhou", country: "China", code: "CAN" },
     { city: "Guatemala City", country: "Guatemala", code: "GUA" },
     { city: "Guayaquil", country: "Ecuador", code: "GYE" },
-    
+
     // International H-L
     { city: "Hamburg", country: "Germany", code: "HAM" },
     { city: "Hanoi", country: "Vietnam", code: "HAN" },
     { city: "Helsinki", country: "Finland", code: "HEL" },
     { city: "Hiroshima", country: "Japan", code: "HIW" },
+    { city: "Ho Chi Minh City", country: "Vietnam", code: "SGN" },
     { city: "Hong Kong", country: "China", code: "HKG" },
     { city: "Huatulco", country: "Mexico", code: "HUX" },
+    { city: "Hyderabad", country: "India", code: "HYD" },
+    { city: "Incheon", country: "South Korea", code: "ICN" },
+    { city: "Islamabad", country: "Pakistan", code: "ISB" },
     { city: "Istanbul", country: "Turkey", code: "IST" },
     { city: "Ixtapa", country: "Mexico", code: "ZIH" },
     { city: "Jakarta", country: "Indonesia", code: "CGK" },
+    { city: "Jeddah", country: "Saudi Arabia", code: "JED" },
     { city: "Johannesburg", country: "South Africa", code: "JNB" },
+    { city: "Karachi", country: "Pakistan", code: "KHI" },
+    { city: "Kathmandu", country: "Nepal", code: "KTM" },
     { city: "Kiev", country: "Ukraine", code: "KBP" },
     { city: "Kingston", country: "Jamaica", code: "KIN" },
-    { city: "Montego Bay", country: "Jamaica", code: "MBJ" },
+    { city: "Kuala Lumpur", country: "Malaysia", code: "KUL" },
+    { city: "Kuwait City", country: "Kuwait", code: "KWI" },
+    { city: "Lagos", country: "Nigeria", code: "LOS" },
+    { city: "Lahore", country: "Pakistan", code: "LHE" },
     { city: "Leon", country: "Mexico", code: "BJX" },
     { city: "Lima", country: "Peru", code: "LIM" },
     { city: "Lisbon", country: "Portugal", code: "LIS" },
@@ -74,9 +97,10 @@ const AirportCodeFinder = () => {
     { city: "London (Heathrow)", country: "UK", code: "LHR" },
     { city: "Los Cabos", country: "Mexico", code: "SJD" },
     { city: "Lyon", country: "France", code: "LYN" },
-    
+
     // International M-N
     { city: "Madrid", country: "Spain", code: "MAD" },
+    { city: "Male", country: "Maldives", code: "MLE" },
     { city: "Managua", country: "Nicaragua", code: "MGA" },
     { city: "Manchester", country: "England", code: "MAN" },
     { city: "Manila", country: "Philippines", code: "MNL" },
@@ -84,15 +108,19 @@ const AirportCodeFinder = () => {
     { city: "Melbourne", country: "Australia", code: "MEL" },
     { city: "Mexico City", country: "Mexico", code: "MEX" },
     { city: "Milan (Malpensa)", country: "Italy", code: "MXP" },
+    { city: "Montego Bay", country: "Jamaica", code: "MBJ" },
     { city: "Monterrey", country: "Mexico", code: "MTY" },
+    { city: "Montreal", country: "Canada", code: "YUL" },
     { city: "Moscow (Sheremetyevo)", country: "Russia", code: "SVO" },
+    { city: "Mumbai", country: "India", code: "BOM" },
     { city: "Munich", country: "Germany", code: "MUC" },
+    { city: "Muscat", country: "Oman", code: "MCT" },
     { city: "Nagoya", country: "Japan", code: "NGO" },
     { city: "Nairobi", country: "Kenya", code: "NBO" },
     { city: "Naples", country: "Italy", code: "NAP" },
     { city: "Nassau", country: "Bahamas", code: "NAS" },
     { city: "Nice", country: "France", code: "NCE" },
-    
+
     // International O-R
     { city: "Osaka", country: "Japan", code: "KIX" },
     { city: "Oslo", country: "Norway", code: "OSL" },
@@ -100,21 +128,27 @@ const AirportCodeFinder = () => {
     { city: "Paradise Island", country: "Bahamas", code: "PID" },
     { city: "Paris (Charles de Gaulle)", country: "France", code: "CDG" },
     { city: "Paris (Orly)", country: "France", code: "ORY" },
+    { city: "Phuket", country: "Thailand", code: "HKT" },
     { city: "Ponce", country: "Puerto Rico", code: "PSE" },
     { city: "Prague", country: "Czech Republic", code: "PRG" },
     { city: "Puerto Vallarta", country: "Mexico", code: "PVR" },
+    { city: "Quito", country: "Ecuador", code: "UIO" },
     { city: "Reykjavik", country: "Iceland", code: "RKV" },
     { city: "Rio de Janeiro", country: "Brazil", code: "GIG" },
+    { city: "Riyadh", country: "Saudi Arabia", code: "RUH" },
     { city: "Rome (Fiumicino)", country: "Italy", code: "FCO" },
-    
+
     // International S-Z
+    { city: "San Jose", country: "Costa Rica", code: "SJO" },
     { city: "San Juan", country: "Puerto Rico", code: "SJU" },
     { city: "Santiago de Chile", country: "Chile", code: "SCL" },
     { city: "Santo Domingo", country: "Dominican Republic", code: "SDQ" },
     { city: "Sao Paulo", country: "Brazil", code: "GRU" },
     { city: "Sapporo", country: "Japan", code: "CTX" },
     { city: "Seoul", country: "Korea", code: "SEL" },
+    { city: "Shanghai (Pudong)", country: "China", code: "PVG" },
     { city: "Shannon", country: "Ireland", code: "SNN" },
+    { city: "Sharjah", country: "United Arab Emirates", code: "SHJ" },
     { city: "Singapore", country: "Singapore", code: "SIN" },
     { city: "St. Croix", country: "U.S. Virgin Islands", code: "STX" },
     { city: "St. Lucia", country: "St. Lucia", code: "SLU" },
@@ -125,13 +159,20 @@ const AirportCodeFinder = () => {
     { city: "Stuttgart", country: "Germany", code: "STR" },
     { city: "Sydney", country: "Australia", code: "SYD" },
     { city: "Taipei", country: "Taiwan", code: "TPE" },
+    { city: "Tehran", country: "Iran", code: "IKA" },
     { city: "Tel Aviv", country: "Israel", code: "TLV" },
+    { city: "Tokyo (Haneda)", country: "Japan", code: "HND" },
     { city: "Tokyo (Narita)", country: "Japan", code: "NRT" },
+    { city: "Toronto", country: "Canada", code: "YYZ" },
     { city: "Tortola", country: "British Virgin Islands", code: "EIS" },
+    { city: "Vancouver", country: "Canada", code: "YVR" },
+    { city: "Venice", country: "Italy", code: "VCE" },
     { city: "Vienna", country: "Austria", code: "VIE" },
     { city: "Warsaw", country: "Poland", code: "WAW" },
     { city: "Xian Xianyang", country: "China", code: "XIY" },
-    
+    { city: "Zurich", country: "Switzerland", code: "ZRH" },
+
+
     // United States A-B
     { city: "Abilene", country: "Texas", code: "ABI" },
     { city: "Akron/Canton", country: "Ohio", code: "CAK" },
@@ -156,7 +197,7 @@ const AirportCodeFinder = () => {
     { city: "Buffalo", country: "New York", code: "BUF" },
     { city: "Burbank", country: "California", code: "BUR" },
     { city: "Burlington", country: "Vermont", code: "BTV" },
-    
+
     // United States C-D
     { city: "Calgary", country: "Canada", code: "YYC" },
     { city: "Cedar Rapids", country: "Iowa", code: "CID" },
@@ -180,7 +221,51 @@ const AirportCodeFinder = () => {
     { city: "Detroit (Metro)", country: "Michigan", code: "DTW" },
     { city: "Dubuque", country: "Iowa", code: "DBQ" },
     { city: "Durango", country: "Colorado", code: "DRO" },
-    
+
+    // United States E-K
+    { city: "Eau Claire", country: "Wisconsin", code: "EAU" },
+    { city: "Edmonton", country: "Canada", code: "YEG" },
+    { city: "El Paso", country: "Texas", code: "ELP" },
+    { city: "Erie", country: "Pennsylvania", code: "ERI" },
+    { city: "Eugene", country: "Oregon", code: "EUG" },
+    { city: "Evansville", country: "Indiana", code: "EVV" },
+    { city: "Fairbanks", country: "Alaska", code: "FAI" },
+    { city: "Fargo", country: "North Dakota", code: "FAR" },
+    { city: "Fayetteville", country: "North Carolina", code: "FAY" },
+    { city: "Flint", country: "Michigan", code: "FNT" },
+    { city: "Fort Lauderdale", country: "Florida", code: "FLL" },
+    { city: "Fort Myers", country: "Florida", code: "RSW" },
+    { city: "Fort Smith", country: "Arkansas", code: "FSM" },
+    { city: "Fort Wayne", country: "Indiana", code: "FWA" },
+    { city: "Fresno", country: "California", code: "FAT" },
+    { city: "Gainesville", country: "Florida", code: "GNV" },
+    { city: "Grand Junction", country: "Colorado", code: "GJT" },
+    { city: "Grand Rapids", country: "Michigan", code: "GRR" },
+    { city: "Great Falls", country: "Montana", code: "GTF" },
+    { city: "Green Bay", country: "Wisconsin", code: "GRB" },
+    { city: "Greensboro", country: "North Carolina", code: "GSO" },
+    { city: "Greenville-Spartanburg", country: "South Carolina", code: "GSP" },
+    { city: "Gulfport-Biloxi", country: "Mississippi", code: "GPT" },
+    { city: "Harlingen", country: "Texas", code: "HRL" },
+    { city: "Harrisburg", country: "Pennsylvania", code: "MDT" },
+    { city: "Hartford", country: "Connecticut", code: "BDL" },
+    { city: "Hilo", country: "Hawaii", code: "ITO" },
+    { city: "Honolulu", country: "Hawaii", code: "HNL" },
+    { city: "Houston (Hobby)", country: "Texas", code: "HOU" },
+    { city: "Houston (Intercontinental)", country: "Texas", code: "IAH" },
+    { city: "Huntsville", country: "Alabama", code: "HSV" },
+    { city: "Indianapolis", country: "Indiana", code: "IND" },
+    { city: "Islip", country: "New York", code: "ISP" },
+    { city: "Jackson", country: "Mississippi", code: "JAN" },
+    { city: "Jacksonville", country: "Florida", code: "JAX" },
+    { city: "Juneau", country: "Alaska", code: "JNU" },
+    { city: "Kalamazoo", country: "Michigan", code: "AZO" },
+    { city: "Kalispell", country: "Montana", code: "FCA" },
+    { city: "Kansas City", country: "Missouri", code: "MCI" },
+    { city: "Key West", country: "Florida", code: "EYW" },
+    { city: "Knoxville", country: "Tennessee", code: "TYS" },
+    { city: "Kona", country: "Hawaii", code: "KOA" },
+
     // United States L-N
     { city: "La Crosse", country: "Wisconsin", code: "LSE" },
     { city: "Lafayette", country: "Louisiana", code: "LFT" },
@@ -223,7 +308,7 @@ const AirportCodeFinder = () => {
     { city: "Newburgh", country: "New York", code: "SWF" },
     { city: "Newport News", country: "Virginia", code: "PHF" },
     { city: "Norfolk", country: "Virginia", code: "ORF" },
-    
+
     // United States O-P
     { city: "Oakland", country: "California", code: "OAK" },
     { city: "Odessa/Midland", country: "Texas", code: "MAF" },
@@ -245,7 +330,7 @@ const AirportCodeFinder = () => {
     { city: "Portland", country: "Maine", code: "PWM" },
     { city: "Portland", country: "Oregon", code: "PDX" },
     { city: "Providence", country: "Rhode Island", code: "PVD" },
-    
+
     // United States Q-S
     { city: "Quebec", country: "Canada", code: "YQB" },
     { city: "Raleigh-Durham", country: "North Carolina", code: "RDU" },
@@ -273,7 +358,7 @@ const AirportCodeFinder = () => {
     { city: "Springfield", country: "Missouri", code: "SGF" },
     { city: "St. Louis", country: "Missouri", code: "STL" },
     { city: "Syracuse", country: "New York", code: "SYR" },
-    
+
     // United States T-W
     { city: "Tallahassee", country: "Florida", code: "TLH" },
     { city: "Tampa", country: "Florida", code: "TPA" },
@@ -322,10 +407,10 @@ const AirportCodeFinder = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="relative pt-28 sm:pt-32 md:pt-36 pb-16 sm:pb-18 md:pb-20">
-        <LazyBackground 
+        <LazyBackground
           src="/assets/home__page.webp"
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         />
@@ -402,7 +487,7 @@ const AirportCodeFinder = () => {
                       </span>
                     </div>
                   </div>
-                  
+
                   <button
                     onClick={() => copyToClipboard(airport.code)}
                     className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 sm:py-2.5 px-3 sm:px-4 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 text-sm sm:text-base"

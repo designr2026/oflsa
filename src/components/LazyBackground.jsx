@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 // Simple base64 placeholder generator for backgrounds
-const generatePlaceholder = (width = 20, height = 20, color = '#241afe') => {
+const generatePlaceholder = (width = 20, height = 20, color = '#1a1a1a') => {
   const svg = `
     <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
       <rect width="100%" height="100%" fill="${color}"/>

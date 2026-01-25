@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 // Simple base64 placeholder generator - creates a tiny blurred placeholder
-const generatePlaceholder = (width = 20, height = 20, color = '#241afe') => {
+const generatePlaceholder = (width = 20, height = 20, color = '#1a1a1a') => {
   // Create a simple SVG placeholder
   const svg = `
     <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
