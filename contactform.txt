@@ -1,0 +1,41 @@
+Steps to replace Formspree with Netlify Functions for Contact Form
+
+1. [x] Analyze current implementation
+   - Found formspree backend in `src/pages/Contact.jsx`
+   - Found `netlify/functions` directory (empty)
+   - Found `nodemailer` dependency in `package.json`
+
+2. [x] Create Netlify Function: `netlify/functions/send-email.js`
+   - Created function using `nodemailer` to send email via SMTP
+   - Configured to use environment variables: SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, CONTACT_EMAIL
+
+3. [x] Update Frontend: `src/pages/Contact.jsx`
+   - Replaced Formspree fetch URL with `/.netlify/functions/send-email`
+   - Removed Formspree-specific form attributes (action, method, hidden input)
+   - Added error handling for non-200 responses
+
+4. [x] Configuration
+   - Updated `.env.example` with required SMTP variables
+   - REPLACED EmailJS configuration with SMTP configuration
+
+5. [ ] **Client Information Required (Outlook/Office 365)**
+   To test effectively, ask your client for:
+   
+   A. **Account Type**: Personal (Outlook.com) or Business (Office 365)?
+   
+   B. **SMTP Credentials**:
+      1. **Email Address**: (e.g., contact@company.com)
+      2. **App Password**: **CRITICAL**. Do NOT use their login password if they have 2FA enabled.
+         - *How to generate*: Go to Microsoft Account > Security > Advanced Security Options > App Passwords > Create.
+      
+   C. **Server Settings** (Verify with client or IT admin):
+      - **Host**: `smtp.office365.com` (Business) or `smtp-mail.outlook.com` (Personal)
+      - **Port**: 587
+      - **Encryption**: TLS/STARTTLS
+
+   D. **Permissions (Business Only)**:
+      - Ensure **Authenticated SMTP** is ENABLED for this specific user account in the Microsoft 365 Admin Center.
+
+6. [x] **Update Form Endpoint (Revert to Formspree)**
+   - Updated `src/pages/Contact.jsx` to use `https://formspree.io/f/mvzbzejd` instead of Netlify Functions.
+   - Verified code change.

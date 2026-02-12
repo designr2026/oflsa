@@ -30,7 +30,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://formspree.io/f/mqawzzog', {
+      const response = await fetch('https://formspree.io/f/mvzbzejd', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -61,11 +61,12 @@ const Contact = () => {
           setSubmitSuccess(false);
         }, 5000);
       } else {
-        throw new Error('Form submission failed');
+        const data = await response.json();
+        throw new Error(data.message || 'Form submission failed');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert('There was an error submitting your form. Please try again.');
+      alert('There was an error submitting your form. Please try again later.');
     } finally {
       setIsSubmitting(false);
     }
@@ -169,8 +170,7 @@ const Contact = () => {
                   <p className="text-gray-600">Thank you for contacting us. We'll get back to you soon.</p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} action="https://formspree.io/f/mqawzzog" method="POST" className="space-y-6">
-                  <input type="hidden" name="_replyto" value={formData.email} />
+                <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="relative">
                       <label className="block text-sm font-semibold text-gray-700 mb-2">First Name</label>
